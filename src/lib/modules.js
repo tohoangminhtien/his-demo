@@ -175,7 +175,7 @@ export const NAV = [
   { group: "Tổng quan", items: [{ href: "/", label: "Tổng quan" }] },
   {
     group: "Nhân sự",
-    items: [{ href: "/practitioners", label: MODULES.practitioners.label }],
+    items: [{ href: "/nhan-su/nguoi-hanh-nghe", label: MODULES.practitioners.label }],
   },
   {
     group: "Lịch làm việc",
@@ -190,11 +190,11 @@ export const NAV = [
   {
     group: "Khám chữa bệnh",
     items: [
-      { href: "/records", label: MODULES.records.label },
+      { href: "/kham-chua-benh/ho-so-kcb", label: MODULES.records.label },
       { href: "/kham-chua-benh/y-lenh", label: MODULES.orders.label },
     ],
   },
-  { group: "Quản trị", items: [{ href: "/logs", label: MODULES.logs.label }] },
+  { group: "Quản trị", items: [{ href: "/quan-tri/nhat-ky-he-thong", label: MODULES.logs.label }] },
 ];
 
 const NAV_ITEMS = NAV.flatMap((g) => g.items);

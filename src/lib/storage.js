@@ -1,4 +1,4 @@
-const STORAGE_KEY = "his-demo:state:v1";
+const STORAGE_KEY = "his-demo:state:v2";
 
 // Mọi thao tác localStorage đều bọc try/catch: chế độ riêng tư hoặc bị chặn vẫn chạy được
 export function loadState() {

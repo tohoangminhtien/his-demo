@@ -3,6 +3,7 @@
 import { usePathname } from "next/navigation";
 import { HisContext, useHisState } from "@/hooks/useHisState";
 import { titleOf } from "@/lib/modules";
+import ChatbotWidget from "./ChatbotWidget";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
 
@@ -21,6 +22,7 @@ export default function HisShell({ children }) {
           <main className="flex-1 overflow-y-auto p-6">{children}</main>
         </div>
       </div>
+      <ChatbotWidget />
     </HisContext.Provider>
   );
 }
